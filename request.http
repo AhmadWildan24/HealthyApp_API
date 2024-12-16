@@ -1,0 +1,15 @@
+###
+POST https://d5ff-158-140-174-1.ngrok-free.app/predict-stunting
+Content-Type: application/json
+
+{
+    "features": [40, 0, 140]
+}
+
+###
+POST https://d5ff-158-140-174-1.ngrok-free.app/predict-diabetes
+Content-Type: application/json
+
+{
+    "features": [1, 1, 0, 1, 0, 25.19, 6.6, 140]
+}
